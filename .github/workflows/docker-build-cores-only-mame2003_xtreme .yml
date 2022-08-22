@@ -1,4 +1,4 @@
-name: Build special Cores via Docker
+name: Build mame2003_xtreme via Docker
 
 on:
   workflow_dispatch:
@@ -15,12 +15,12 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/root/workspace \
         techdevangelist/miyoomini-buildroot:latest /bin/bash -c \
-        "cd /root/workspace && git submodule init && git submodule update && patch -p0 <  buildbot-tweaks.patch && cd libretro-super && ./libretro-buildbot-recipe.sh ../cores-onionos-mame2003_xtreme && pwd && cd dist/unix && for i in *.so; do cp ../info/\${i%.*}.info .; done && ls -lah ./"
+        "cd /root/workspace && git submodule init && git submodule update && patch -p0 <  buildbot-tweaks.patch && cd libretro-super && ./libretro-buildbot-recipe.sh ../cores-onionos-mame2003_xtreme && pwd && cd dist/unix && for i in *.so;  done && ls -lah ./"
 
     - name: Upload the build artifacts
       uses: actions/upload-artifact@v3.0.0
       with:
-        name: OnionOS cores for arm7neonhf
+        name: mame2003_xtreme
         path: libretro-super/dist/unix/*
         if-no-files-found: error
         retention-days: 90
