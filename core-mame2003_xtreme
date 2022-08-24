@@ -1,1 +1,2 @@
 mame2003_xtreme mame2003_xtreme https://github.com/KMFDManic/mame2003-xtreme.git master YES GENERIC Makefile .
+mame2010 mame2010 https://github.com/libretro/mame2010-libretro.git master YES GENERIC Makefile .
