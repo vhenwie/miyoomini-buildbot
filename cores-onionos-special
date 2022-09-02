@@ -1,1 +1,1 @@
-km_pcsx_hd_xtreme_libretro km_pcsx_hd_xtreme_libretro https://github.com/KMFDManic/pcsx_rearmed.git master YES GENERIC Makefile.libretro . DYNAREC=ari64 HAVE_NEON=1 BUILTIN_GPU=neon
+km_pcsx_hd_xtreme libretro-km_pcsx_hd_xtreme https://github.com/KMFDManic/pcsx_rearmed.git master YES GENERIC Makefile.libretro . DYNAREC=ari64 HAVE_NEON=1 BUILTIN_GPU=neon
