@@ -1,2 +1,1 @@
-mame2010 mame2010 https://github.com/libretro/mame2010-libretro.git master YES GENERIC Makefile .
-SameCDi libretro-SameCDi https://github.com/libretro/same_cdi.git  master YES GENERIC Makefile .
+samecdi libretro-samecdi https://github.com/libretro/same_cdi.git master YES GENERIC Makefile.libretro .
