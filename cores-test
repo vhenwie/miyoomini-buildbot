@@ -1,1 +1,1 @@
-samecdi libretro-samecdi https://github.com/libretro/same_cdi.git master YES GENERIC Makefile.libretro .
+same_cdi libretro-same_cdi https://github.com/libretro/same_cdi.git master NO GENERIC Makefile.libretro . PTR64=0
