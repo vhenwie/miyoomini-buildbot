@@ -1,4 +1,4 @@
-name: Build mame2003_xtreme via Docker
+name: Build cores-test
 
 on:
   workflow_dispatch:
