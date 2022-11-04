@@ -1,1 +1,1 @@
-same-cdi libretro-same-cdi https://github.com/libretro/same_cdi.git  master YES GENERIC Makefile .
+samecdi libretro-samecdi https://github.com/libretro/same_cdi.git  master YES GENERIC Makefile .
