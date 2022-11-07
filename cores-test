@@ -1,2 +1,2 @@
 puae libretro-uae https://github.com/libretro/libretro-uae.git 2.6.1 YES GENERIC Makefile .
-
+same_cdi libretro-same_cdi https://github.com/libretro/same_cdi.git master NO GENERIC Makefile.libretro . PTR64=0
