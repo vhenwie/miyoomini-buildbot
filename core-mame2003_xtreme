@@ -1,2 +1,2 @@
-mame2003_xtreme libretro-mame2003_xtreme https://github.com/KMFDManic/mame2003-xtreme.git master YES GENERIC Makefile .
 
+easyrpg libretro-easyrpg https://github.com/Ghabry/easyrpg-player.git sdl_legacy YES CMAKE Makefile build
