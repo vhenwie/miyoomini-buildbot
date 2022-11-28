@@ -1,4 +1,4 @@
 gambatte libretro-gambatte https://github.com/schmurtzm/gambatte-libretro.git master YES GENERIC Makefile .
-dosbox_pure libretro-dosbox-pure https://github.com/libretro/dosbox-pure.git libretro YES GENERIC Makefile.libretro libretro target=arm WITH_FAKE_SDL=1
-#puae libretro-uae https://github.com/libretro/libretro-uae.git 2.6.1 YES GENERIC Makefile .
-#same_cdi libretro-same_cdi https://github.com/libretro/same_cdi.git master NO GENERIC Makefile.libretro . PTR64=0
+dosbox_pure libretro-dosbox-pure https://github.com/libretro/dosbox-pure.git  main YES GENERIC Makefile .
+puae libretro-uae https://github.com/libretro/libretro-uae.git 2.6.1 NO GENERIC Makefile .
+same_cdi libretro-same_cdi https://github.com/libretro/same_cdi.git master YES GENERIC Makefile.libretro . PTR64=0
