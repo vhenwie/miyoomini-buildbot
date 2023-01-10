@@ -4,3 +4,4 @@ dosbox_pure libretro-dosbox-pure https://github.com/libretro/dosbox-pure.git  ma
 dosbox_pure libretro-dosbox-pure https://github.com/schellingb/dosbox-pure.git  main YES GENERIC Makefile .
 puae2021 libretro-uae https://github.com/libretro/libretro-uae.git 2.6.1 YES GENERIC Makefile .
 same_cdi libretro-same_cdi https://github.com/libretro/same_cdi.git master NO GENERIC Makefile.libretro . PTR64=0
+mame2016 libretro-mame2016 https://github.com/libretro/mame2016-libretro.git master YES GENERIC Makefile .
