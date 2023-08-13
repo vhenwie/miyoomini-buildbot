@@ -42,7 +42,7 @@
  
  		echo 'cleaning up...'
  		echo "CLEANUP CMD: ${HELPER} ${MAKE} clean"
-@@ -1684,8 +1687,13 @@
+@@ -1684,8 +1687,16 @@
  		fi
  
  		echo 'building...'
@@ -55,15 +55,19 @@
 +		${HELPER} ${MAKE} clean
 +		echo "BUILD CMD: ${HELPER} ${MAKE} -f Makefile.miyoomini_ml -j${JOBS}"
 +		${HELPER} ${MAKE} -f Makefile.miyoomini_ml -j${JOBS} 2>&1 | tee -a "$LOGFILE"
++		${HELPER} ${MAKE} clean
++		echo "BUILD CMD: ${HELPER} ${MAKE} -f Makefile.miyoomini_plus -j${JOBS}"
++		${HELPER} ${MAKE} -f Makefile.miyoomini_plus -j${JOBS} 2>&1 | tee -a "$LOGFILE"
  
  		status=$?
  		echo "$status"
-@@ -1696,6 +1704,13 @@
+@@ -1696,6 +1704,14 @@
  			MESSAGE="retroarch:	[status: done] [$jobid]"
  			echo buildbot job: $MESSAGE >> "$LOGFILE"
  			echo "Packaging"
 +			mkdir -p dist/.retroarch/assets/rgui/font dist/.retroarch/filters/video dist/.retroarch/filters/audio
 +			cp retroarch_multilang COPYING dist/
++			cp retroarch_miyoo354 COPYING dist/
 +			cp retroarch.cfg dist/.retroarch/
 +			cp libretro-common/audio/dsp_filters/*.dsp dist/.retroarch/filters/audio/
 +			cp gfx/video_filters/*.filt dist/.retroarch/filters/video/
