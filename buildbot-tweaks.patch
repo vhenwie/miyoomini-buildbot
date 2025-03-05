@@ -20,7 +20,7 @@
  			echo "URL: $URL"
  			echo "REPO TYPE: $TYPE"
  			echo "ENABLED: $ENABLED"
-+			BRANCH="miyoomini-1.16.0"
++			BRANCH="master"
  
  			if [ -d "${PARENTDIR}/${DIR}/.git" ]; then
  				cd $PARENTDIR
