@@ -1,1 +1,1 @@
-melonds libretro-melonds https://github.com/libretro/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1 HAVE_OPENGL=1 HAVE_THREADS=1 JIT_ARCH=aarch64
+melonds libretro-melonds https://github.com/libretro/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1 HAVE_OPENGL=1 HAVE_THREADS=1
