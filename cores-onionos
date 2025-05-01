@@ -1,1 +1,1 @@
-desmume libretro-desmume https://github.com/libretro/desmume.git master NO GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1 BUILTIN_GPU=neon USE_DYNAREC=1 DESMUME_JIT_ARM=1
+desmume libretro-desmume https://github.com/libretro/desmume.git master YES GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1 BUILTIN_GPU=neon USE_DYNAREC=1 DESMUME_JIT_ARM=1
