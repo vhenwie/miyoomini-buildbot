@@ -1,1 +1,1 @@
-desmume libretro-desmume https://github.com/vhenwie/desmume.git master YES GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1 BUILTIN_GPU=neon USE_DYNAREC=1 DESMUME_JIT_ARM=1
+melonds libretro-melonds https://github.com/libretro/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1 HAVE_OPENGL=1 HAVE_THREADS=1
