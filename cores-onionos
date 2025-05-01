@@ -1,1 +1,1 @@
-melonds libretro-melonds https://github.com/vhenwie/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1 HAVE_OPENGL=1
+melonds libretro-melonds https://github.com/vhenwie/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1
