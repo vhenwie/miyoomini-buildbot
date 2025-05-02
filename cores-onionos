@@ -1,1 +1,1 @@
-desmume libretro-desmume https://github.com/vhenwie/desmume.git master YES GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1
+desmume libretro-desmume https://github.com/vhenwie/desmume.git master YES GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1 ARCH=arm
