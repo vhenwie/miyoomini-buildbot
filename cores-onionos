@@ -1,1 +1,1 @@
-melonds libretro-melonds https://github.com/vhenwie/melonDS.git master YES GENERIC Makefile . HAVE_NEON=1 HAVE_THREADS=1 HAVE_WIFI=1 HAVE_X11=0 STATIC_LINKING=1
+desmume libretro-desmume https://github.com/vhenwie/desmume.git master NO GENERIC Makefile.libretro desmume/src/frontend/libretro HAVE_NEON=1
