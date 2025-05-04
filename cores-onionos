@@ -1,1 +1,1 @@
-melonds libretro-melonds https://github.com/vhenwie/melonDS.git old YES GENERIC Makefile . HAVE_NEON=1 HAVE_WIFI=1 HAVE_X11=0
+melonds libretro-melonds https://github.com/vhenwie/melonDS.git b6481a2 YES GENERIC Makefile . HAVE_NEON=1 HAVE_WIFI=1 HAVE_X11=0
